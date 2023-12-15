@@ -43,7 +43,7 @@ jobs:
         id: cfn-nag
         uses: stelligent/cfn_nag@master
         with:
-          input_path: templates
+          input_path: templates this section is a test orjwhyadnblkhuea
           #output_path: cfn_nag.sarif
     
       # Summarize cfn_nag failures and return it as exit code
